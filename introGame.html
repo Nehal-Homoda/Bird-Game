@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="let's play Bird game with us"/>
+<title>Bird Game</title>
+<link rel="stylesheet" href="css/introStyle.css"/>
+</head>
+
+<body class="paeg1">
+<div class="form">
+<form action="game.html">
+    <h1> Select Game Level</h1>
+    <select  name="levels">
+    <option value="0" selected disabled > choose level</option>
+    <option value="1">level 1</option>
+    </select>
+    <h1> Enter Your Name</h1>
+    <input type="text"  class="txt" value=" " size="15" maxlength="30" placeholder="Enter Your Name" required /> <br/>
+     <input type="submit"  value="GO" class="sub" ></input>
+</form>
+</div>
+<div class="points">
+    <h1> Game Bird Shooting Points</h1>
+    <img src="imgBirds/bird3.gif" width="100px">
+    <span class="point5"> +5 Points</span><br/>
+    <img src="imgBirds/bird2.gif" width="100px">
+    <span class="point10"> +10 Points </span><br/>
+    <img src="imgBirds/bird1.gif" width="100px" >
+    <span class="point-10"> -10 Points</span>
+</div>
+</body>
+<script src="js/introGame.js"></script>
+</html>

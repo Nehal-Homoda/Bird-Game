@@ -1,0 +1,60 @@
+.paeg1{
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.form{
+    position: relative;
+    border:4px black solid;
+    border-radius: 20px;
+    margin:30px 450px;
+    width:380px;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(212, 208, 186);
+    opacity:.8;
+}
+#btn
+{
+  margin: 15px;
+  padding: 6px;
+  border-radius: 9px;
+  width: 70px;
+}
+.points{
+    position: relative;
+    border:4px black solid;
+    border-radius: 20px;
+    margin:30px 450px;
+    width:400px;
+    text-align: center;
+    background-color: rgb(212, 208, 186);
+    opacity:.8;
+}
+.point5{
+    font-size: 30px;
+    color:blue;
+    top: -40px;
+    position: relative;
+
+}
+.point10{
+    font-size: 30px;
+    color:brown;
+    top: -30px;
+    position: relative;
+    
+}
+.point-10{
+    font-size: 30px;
+    color:darkorchid;
+    position: relative;
+    top:-40px;
+    
+}
+
+    
+

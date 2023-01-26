@@ -1,0 +1,127 @@
+.page2{
+    background-image: url("../images/picture.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden; 
+}
+.wel,.score,.time,.killed
+{
+    width: 15%;
+    background-color: #ebe7f1;
+    color: rgba(35, 44, 41, 0.938);
+    padding: 10px 15px;
+    border: 1px solid rgb(76, 76, 77);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 25px;
+    float:left;
+    margin: 40px;
+    text-align: center;
+    opacity: .5;
+    top:-165px;
+    position: relative;
+    
+
+}
+.welcome
+{
+    background-color: #f4f6f7;
+    width: 500px;
+    margin: 200px 400px;
+    text-align: center;
+    height: 350px;
+    border: 4px solid rgb(147, 147, 150);
+    border-radius: 7px; 
+    background-color: beige;
+    padding-top: 10px!important;
+    padding-bottom: 125px!important;
+    margin-top: 155px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+.bird{
+    position:absolute;
+    width: 150px;
+    height:150px;
+    top:-50px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+.bomb{
+    position:absolute;
+    width: 100px;
+    height:100px;
+    cursor:pointer;
+}
+
+.finalWindow
+{
+    visibility: hidden;
+}
+#finalLabel
+{
+    width: 550px;
+    display: block;
+    position: absolute;
+    top:220px;
+    height: 350px;
+    left: 400px;
+    border: 3px solid black;
+    background-color: #ebe7f1;
+    opacity: 0.8;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#finalLabel img
+{
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    position:absolute;
+}
+.playBtn
+{
+    left: 220px;
+    position: absolute;
+    top:280px;
+    width: 90px;
+    height: 30px;
+    border: 2px  solid rgb(8, 4, 4) ;
+    border-radius: 10px;
+    background-color: #5b9678;
+    cursor: pointer;
+
+}
+.h1Img
+{
+    left: 170px;
+    top:10px;
+    position: relative;
+
+}
+.getLastScore
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:crimson;
+}
+.getLastVisit
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+}
+.start
+{
+    background-color: rgb(85, 145, 163);
+    border-radius: 8px;
+    width: 150px;
+    height: 33px;
+    border: 2px solid rgb(59, 55, 55);
+    cursor: pointer;
+    margin-top:-10px;
+}
